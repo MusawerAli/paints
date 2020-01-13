@@ -15,7 +15,11 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
-
+<footer>
+<div class="w3-panel w3-topbar w3-bottombar w3-border-red w3-light-grey"></div>
+    <p>I have a thick red top and bottom border and a pale-red background color.</p>
+  </div>
+</footer>
 </body>
 </html>
     

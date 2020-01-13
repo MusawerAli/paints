@@ -85,3 +85,20 @@ $this->load->view('header');
     </div>
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php $this->load->view('footer');?>
