@@ -55,33 +55,63 @@ $this->load->view('header');
 
 <section>
     <!-- First Photo Grid-->
-    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-        <div class="w3-col" style="width:19.99%">
-            <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    <div class="w3-row-padding  w3-padding-16 w3-center" id="food">
+        <div class="w3-col " style="width:19.99%">
+            <img src="<?= base_url('assets/images/2.1.png')?>" alt="Sandwich" style="width:70%">
+            <h3 class="w3-text-red w3-margin-top">from £39.95</h3>
+            <hr>
+            <p class="text-blue1">Everest Trade - High Build Industrial Grade Concrete Floor Paint - PU Resin Based- Anti-Slip</p>
+            <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
+            <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top" style="width:75%">More Information</button>
+            
         </div>
-        <div class="w3-col" style="width:19.99%">
-            <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
-            <h3>Let Me Tell You About This Steak</h3>
-            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <div class="w3-col " style="width:19.99%">
+            <img src="<?= base_url('assets/images/2.2.png')?>" alt="Sandwich" style="width:70%">
+            <h3 class="w3-text-red w3-margin-top">from £39.95</h3>
+            <hr>
+            <p class="text-blue1">Everest Trade - High Build Industrial Grade Concrete Floor Paint - PU Resin Based- Anti-Slip</p>
+            <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
+            <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top" style="width:75%">More Information</button>
+            
         </div>
-        <div class="w3-col" style="width:19.99%">
-            <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
-            <h3>Cherries, interrupted</h3>
-            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-            <p>What else?</p>
+        <div class="w3-col " style="width:19.99%">
+            <img src="<?= base_url('assets/images/2.3.png')?>" alt="Sandwich" style="width:70%">
+            <h3 class="w3-text-red w3-margin-top">from £39.95</h3>
+            <hr>
+            <p class="text-blue1">Everest Trade - High Build Industrial Grade Concrete Floor Paint - PU Resin Based- Anti-Slip</p>
+            <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
+            <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top" style="width:75%">More Information</button>
+            
         </div>
-        <div class="w3-col" style="width:19.99%">
-            <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
-            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <div class="w3-col " style="width:19.99%">
+            <img src="<?= base_url('assets/images/2.4.png')?>" alt="Sandwich" style="width:70%">
+            <h3 class="w3-text-red w3-margin-top">from £39.95</h3>
+            <hr>
+            <p class="text-blue1">Everest Trade - High Build Industrial Grade Concrete Floor Paint - PU Resin Based- Anti-Slip</p>
+            <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
+            <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top" style="width:75%">More Information</button>
+            
         </div>
-        <div class="w3-col" style="width:19.99%">
-            <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
-            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <div class="w3-col " style="width:19.99%" >
+        <header class="w3-display-container w3-margin" id="home">
+           <a href="">
+           <img src="<?= base_url('assets/images/2.5.png')?>" alt="Sandwich" style="min-height:550px;max-width:260px">
+           <div class="w3-display-left w3-padding-large">
+                    <h2 class="w3-text-white">View All</h2>
+                    <h5 class="w3-text-white">Floor Paints</h5>
+
+                        
+                </div>
+           </a>
+        </header>
         </div>
     </div>
+
+     <!-- First Photo Grid-->
+  
 
 </section>

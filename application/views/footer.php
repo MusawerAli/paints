@@ -17,5 +17,8 @@ function w3_close() {
 </script>
 
 </body>
+<footer>
+    
+</footer>
 </html>
     
