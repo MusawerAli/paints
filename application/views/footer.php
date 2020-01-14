@@ -15,11 +15,31 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
-<footer>
-<div class="w3-panel w3-topbar w3-bottombar w3-border-red w3-light-grey"></div>
-    <p>I have a thick red top and bottom border and a pale-red background color.</p>
+
+ <hr>
+<footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+   <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">Let Our Customers<br>
+Speak For Us</div>
+
+
+    <div class="col-sm-8" style="background-color:lavenderblush;">
+   <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">Excellent service
+Did exactly what they promised
+
+Ben Barnes
+28/02/2019</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-8</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-8</div>
+</div>
   </div>
-</footer>
+
+  </div>
+</div>
+  </footer>
+
 </body>
 </html>
     
