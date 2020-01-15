@@ -3,33 +3,38 @@ $this->load->view('header');
 
 ?>
 <div style="margin-left: 3em">
-<div class="row">
-  <div class="w3-col" style="width:19.99%">
-    <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/Delivery-icon_clear.png?2217" class="wun-5-img" width="50px">
-    <span class="wun-5-span">Free UK Mainland Delivery on all paints</span>
-  </div>
-  
-  <div class="w3-col" style="width:19.99%">
-    <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/magnify_glass_icon_clear.png?2217" class="wun-5-img" width="50px">
-    <span class="wun-5-span">Find a lower price and we'll match it</span>
-  </div>
-  
-  <div class="w3-col" style="width:19.99%">
-    <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/Review-icon3_clear.png?2217" class="wun-5-img" width="50px">
-    <span class="wun-5-span">★★★★★ Rated excellent</span>
-  </div>
-  
-  <div class="w3-col" style="width:19.99%">
-    <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/paypal-icon_clear.png?2217" class="wun-5-img" width="50px">
-    <span class="wun-5-span">Checkout faster and easier with PayPal</span>
-  </div>
-  
-  <div class="w3-col" style="width:19.99%">
-    <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/expert_advice_2_clear.png?2217" class="wun-5-img" width="50px">
-    <span class="wun-5-span">Fast, <strong>Free</strong> Technical advice </span>
-  </div>
-  
-</div>
+    <div class="row">
+        <div class="w3-col" style="width:19.99%">
+            <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/Delivery-icon_clear.png?2217" class="wun-5-img"
+                width="50px">
+            <span class="wun-5-span">Free UK Mainland Delivery on all paints</span>
+        </div>
+
+        <div class="w3-col" style="width:19.99%">
+            <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/magnify_glass_icon_clear.png?2217"
+                class="wun-5-img" width="50px">
+            <span class="wun-5-span">Find a lower price and we'll match it</span>
+        </div>
+
+        <div class="w3-col" style="width:19.99%">
+            <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/Review-icon3_clear.png?2217" class="wun-5-img"
+                width="50px">
+            <span class="wun-5-span">★★★★★ Rated excellent</span>
+        </div>
+
+        <div class="w3-col" style="width:19.99%">
+            <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/paypal-icon_clear.png?2217" class="wun-5-img"
+                width="50px">
+            <span class="wun-5-span">Checkout faster and easier with PayPal</span>
+        </div>
+
+        <div class="w3-col" style="width:19.99%">
+            <img src="https://cdn.shopify.com/s/files/1/2577/5036/files/expert_advice_2_clear.png?2217"
+                class="wun-5-img" width="50px">
+            <span class="wun-5-span">Fast, <strong>Free</strong> Technical advice </span>
+        </div>
+
+    </div>
 </div>
 <section class="w3-container ">
     <div class="w3-row">
@@ -92,7 +97,7 @@ $this->load->view('header');
                 Anti-Slip</p>
             <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
             <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
-            <button class="w3-btn blue1 w3-text-white w3-margin-top" >More Information</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top">More Information</button>
 
         </div>
         <div class="w3-col " style="width:19.99%">
@@ -114,7 +119,7 @@ $this->load->view('header');
                 Anti-Slip</p>
             <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
             <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
-            <button class="w3-btn blue1 w3-text-white w3-margin-top" >More Information</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top">More Information</button>
 
         </div>
         <div class="w3-col " style="width:19.99%">
@@ -125,7 +130,7 @@ $this->load->view('header');
                 Anti-Slip</p>
             <p>A highly durable industrial grade polyurethane floor paint - 20 / 5 Litre</p>
             <button class="w3-btn w3-black w3-opacity w3-text-white">Polyurethane Resin Based</button>
-            <button class="w3-btn blue1 w3-text-white w3-margin-top" >More Information</button>
+            <button class="w3-btn blue1 w3-text-white w3-margin-top">More Information</button>
 
         </div>
         <div class="w3-col " style="width:19.99%">
@@ -183,6 +188,7 @@ $this->load->view('header');
         </div>
     </div>
 </section>
+
 
 
 <section>
@@ -247,9 +253,32 @@ $this->load->view('header');
             </header>
         </div>
     </div>
-
+    <div id="hp-ctn-howItWorks">
+        <img src="~/Content/images/ui-symb-arrow-left-white-15x15.png" width="15" height="15" />
+        <p>
+            <button class="w3-button w3-gray fa fa-star "
+                onclick="document.getElementById('id01').style.display='block'" style="width: auto"> Review and
+                Feedback</button>
+        </p>
+    </div>
     <!-- First Photo Grid-->
-
+    <div id="id01" class="w3-modal w3-animate-opacity">
+        <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Modal Header</h2>
+            </header>
+            <div class="w3-container">
+                <p>Some text..</p>
+                <p>Some text..</p>
+            </div>
+            <footer class="w3-container w3-teal">
+                <p>Modal Footer</p>
+            </footer>
+        </div>
+    </div>
+    </div>
 
 </section>
 
@@ -413,4 +442,7 @@ $this->load->view('header');
 
     </div>
 </section>
+
+
+
 <?php $this->load->view('footer');?>
