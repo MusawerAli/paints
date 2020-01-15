@@ -245,5 +245,13 @@
     }
 }
 
+.payment-icons-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
 
 /* slider end */
