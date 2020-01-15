@@ -27,3 +27,61 @@
     position: relative;
     z-index: 1;
 }
+
+* {
+    font-family: "Eurostile Next", serif;
+    font-style: normal;
+}
+
+.dynamic-text-background {
+    background-image: url(https://cdn.shopify.com/s/files/1/2577/5036/files/hexellence.png?4706294470393780070);
+    background-color: #213972;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rich-text-heading-custom {
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.rich-text-content-custom {
+    line-height: 1.5;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.article--excerpt-meta-item {
+    display: inline-block;
+    font-size: 0.9375rem;
+}
+
+.article--excerpt-meta-item {
+    display: inline-block;
+    font-size: 0.9375rem;
+}
+
+.article--excerpt-content {
+    width: 100%;
+    padding: 1.25rem;
+    white-space: normal;
+}
+
+.line {
+    border-left: 2px solid gray;
+    height: 4px;
+    padding: 2px;
+}
+
+.wunbwh {
+    font-size: 14px;
+    padding-top: 5px;
+    overflow: auto;
+    BACKGROUND-COLOR: #f3f3f3;
+    border: solid 1px lightgrey;
+}
